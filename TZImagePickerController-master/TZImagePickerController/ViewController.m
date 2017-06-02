@@ -562,23 +562,7 @@
 
 - (void)ClckedUpdataImg{
 
-    NSMutableDictionary * params = [NSMutableDictionary dictionary];
-    params[@"user_id"] = @"8";
-    params[@"name"] = @"1";
-    params[@"price"] = @"1";
-    params[@"tel"] = @"13011117730";
-    params[@"adds"] = @"1";
-    params[@"opentime"] = @"1";
-    params[@"movetime"] = @"1";
-    params[@"sellname"] = @"1";
-    params[@"style"] = @"1";
-    params[@"type"] = @"22";
-    //    params[@"img_url"] =streS;
-    
-    
-    NSString * path = [NSString stringWithFormat:@"%@%@",@"http://loushijie.cn/lzyapi/",@"user/UploadBuildings.php"];
-    
-   // NSString * path = @"http://sbjkzx.com/api/upload/logoUp";
+   
 
     // 首先先实例化这个manager呗
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
